@@ -42,7 +42,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding: 0 1rem;
 }
 
@@ -50,4 +50,53 @@ h1{
   color:#FFFFFF;
   font-size: xx-large;
   font-family: "Poppins", sans-serif;
+}
+
+.usuarios {
+  background-color: #B2AEAB; 
+  border-radius: 0rem;       
+  padding: 1rem;             
+  margin-bottom: 3rem;      
+  list-style: none;
+  text-align: center;   
+  display: flex;
+  flex-direction: column;     
+}
+
+a{
+  text-decoration: none;
+  color:#0F172A;
+  display: flex;
+  align-items: center;
+}
+
+main p {
+  margin-bottom: 3rem; 
+  text-align: center; 
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.botao_menor{
+  background-color: #54B7BE; 
+  border-radius: 0rem;       
+  padding: 1rem;     
+  padding-left: 3rem;
+  padding-right: 3rem;        
+  margin-bottom: 3rem;  
+  margin-top: 0rem;   
+  list-style: none;
+  text-align: center;  
+  display: flex;
+  flex-direction: column;
+}
+
+.img_usuario{
+  width: 3rem;
+  padding-top: 1rem;
+}
+
+footer{
+  bottom: 0;
+  align-items: center;
 }

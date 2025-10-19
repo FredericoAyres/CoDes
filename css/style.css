@@ -10,7 +10,7 @@ body {
 }
 
 /* Cabeçalho azul */
-header {
+.rotulo {
   width: 100%;
   background: #33648A;
   height: 6rem;
@@ -80,7 +80,55 @@ main p {
   padding-top: 1rem;
 }
 
-footer{
-  bottom: 0;
-  align-items: center;
+.img_casa{
+  width: 3rem;
+  background-color: #54B7BE;
+  padding: 0.5rem;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.img_flecha{
+  width: 3rem;
+  background-color: #54B7BE;
+  padding: 0.5rem;
+  position: fixed;
+  top: 1rem;
+  left: 6rem;
+}
+
+.horario{
+  background-color: #54B7BE;
+  font-size: 2rem;       
+  padding: 1.0rem 1rem;  
+  position: fixed;       
+  top: 1rem;             
+  right: 1rem;            
+}
+
+.linha{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.semana{
+  margin-top: 2.5rem
+}
+
+.dia{
+  background-color: #B2AEAB;
+  font-size: 5rem;       
+  width: 8rem;            
+  height: 8rem;           
+  display: flex;          
+  align-items: center;    
+  justify-content: center;
+  margin: 1.0rem;          
 }

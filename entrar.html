@@ -2,35 +2,31 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Organiza Remédios - Usuário</title>
 </head>
 
 <body>
-  <header>
+  <header class="rotulo">
     <h1>Organiza Remédios</h1>
-
-    <nav>
-
-      <a href="index.html">
-        <img src="img/casinha.png" alt="Início" width="40">
-      </a>
-
-      <a href="javascript:history.back()">
-        <img src="img/flecha.png" alt="Voltar" width="40">
-      </a>
-
-    </nav>
-
-    <p>Olá, nome do usuário</p>
   </header>
 
   <main>
     <ul>
-      <li><a href="rotina.html">Rotina</a></li>
-      <li><a href="medicamentos.html">Medicamentos</a></li>
-      <li><a href="relatorios.html">Relatórios</a></li>
+      <p class="texto">Olá, nome do usuário</p>
+      <li><a class="categorias" href="rotina.html">Rotina
+        <img class='img_rotina' src="img/rotina.png" alt="Rotina">
+      </a></li>
+      <li><a class="categorias" href="medicamentos.html">Medicamentos
+        <img class='img_medicamentos' src="img/medicamentos.png" alt="Medicamentos">
+      </a></li>
+      <li><a class="categorias" href="relatorios.html">Relatórios
+        <img class='img_relatorios' src="img/relatorios.png" alt="Relatórios">
+      </a></li>
+      <li><a class="botao_menor" href="index.html">Trocar usuário</a></li>
     </ul>
   </main>
 </body>

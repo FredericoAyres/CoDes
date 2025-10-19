@@ -1,4 +1,3 @@
-/* Base geral */
 body {
   margin: 0;
   background: #FFFFFF;
@@ -9,7 +8,6 @@ body {
   color: #000000;
 }
 
-/* Cabeçalho azul */
 .rotulo {
   width: 100%;
   background: #33648A;
@@ -19,7 +17,6 @@ body {
   justify-content: center;
 }
 
-/* Bloco principal de botões */
 main {
   width: 100%;
   max-width: 22rem;
@@ -131,4 +128,31 @@ main p {
   align-items: center;    
   justify-content: center;
   margin: 1.0rem;          
+}
+
+.texto{
+  font-size: 1.5rem;
+}
+
+.categorias{
+  background-color: #B2AEAB; 
+  font-size: 1.75rem;
+  width: 17rem;            
+  height: 5rem;    
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+  margin-bottom: 2.5rem; 
+}
+
+.img_rotina{
+  width: 3rem;
+}
+
+.img_medicamentos{
+  width: 3rem;
+}
+
+.img_relatorios{
+  width: 3rem;
 }

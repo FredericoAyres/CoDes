@@ -174,12 +174,20 @@ main p {
   margin-top: 10rem;
   display: flex;
   background-color: #B2AEAB;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;
+  padding: 0.5rem;
 }
 
 .caixa2{
   margin-top: 2.5rem;
   display: flex;
   background-color: #B2AEAB;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;
+  padding: 0.5rem;
 }
 
 .img_hoje{
@@ -188,4 +196,12 @@ main p {
 
 .img_semana{
   width: 12rem;
+}
+
+.img_meus_medicamentos{
+  width: 11rem;
+}
+
+.img_cadastrar_novo{
+  width: 11rem;
 }

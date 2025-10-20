@@ -2,6 +2,8 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Organiza Remédios - Medicamentos</title>
@@ -9,25 +11,33 @@
 
 <body>
   <header>
-    <h1>Organiza Remédios</h1>
-
-    <nav>
-      <a href="index.html">
-        <img src="img/casinha.png" alt="Início" width="40">
-      </a>
-
-      <a href="javascript:history.back()">
-        <img src="img/flecha.png" alt="Voltar" width="40">
-      </a>
-    </nav>
-
-    <p>Medicamentos de nome do usuario</p>
+    <ul class="linha">
+      <li>
+        <ul class="linha">
+          <li>
+            <a href="index.html">
+              <img class="img_casa" src="img/casa.png" alt="Início">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:history.back()">
+              <img class="img_flecha" src="img/seta.png" alt="Voltar">
+            </a>
+          </li>
+        </ul>
+      <li class="horario">11:30</li>
+    </ul>
   </header>
 
   <main>
+    <p class="abas">Medicamentos</p>
     <ul>
-      <li><a href="meus_medicamentos.html">Meus Medicamentos</a></li>
-      <li><a href="cadastrar_novo.html">Cadastrar novo</a></li>
+      <li><a class="caixa1" href="meus_medicamentos.html">Meus Medicamentos
+        <img class="img_meus_medicamentos" src="img/meus_medicamentos.png" alt="Meus_Medicamentos">
+      </a></li>
+      <li><a class="caixa2" href="cadastrar_novo.html">Registrar Novo
+        <img class="img_cadastrar_novo" src="img/registrar_novo.png" alt="Registrar_Novo">
+      </a></li>
     </ul>
   </main>
 </body>

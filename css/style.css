@@ -213,3 +213,58 @@ main p {
 .img_ultimo_mes{
   width: 12rem;
 }
+
+.remedios_dia{
+  margin-top: 5rem;
+  width: 10rem;
+  height: 6rem;
+  display: flex;
+  background-color: #B2AEAB;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.horarios_dia{
+  margin-top: 5rem;
+  width: 4.5rem;
+  height: 3rem;
+  display: flex;
+  background-color: #B2AEAB;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.tomou{
+  background-color: #B0CC2E;
+  width: 4.5rem;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.nao_tomou{
+  background-color: #FB4740;
+  width: 4.5rem;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.aguardando{
+  background-color: #B2AEAB;
+  width: 4.5rem;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;
+  font-size: 1.5rem;
+}

@@ -116,7 +116,7 @@ main p {
 }
 
 .semana{
-  margin-top: 2.5rem
+  margin-top: 2.5rem;
 }
 
 .dia{
@@ -155,4 +155,37 @@ main p {
 
 .img_relatorios{
   width: 3rem;
+}
+
+.abas{
+  margin-top: 5rem;
+  background-color: #33648A;
+  width: 100%;
+  height: 3rem;
+  color:#FFFFFF;
+  position: fixed;
+  font-size: 2rem;
+  display: flex;          
+  align-items: center;  
+  justify-content: center;
+}
+
+.caixa1{
+  margin-top: 10rem;
+  display: flex;
+  background-color: #B2AEAB;
+}
+
+.caixa2{
+  margin-top: 2.5rem;
+  display: flex;
+  background-color: #B2AEAB;
+}
+
+.img_hoje{
+  width: 12rem;
+}
+
+.img_semana{
+  width: 12rem;
 }

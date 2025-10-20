@@ -2,6 +2,8 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Organiza Remédios - Rotina</title>
@@ -9,25 +11,33 @@
 
 <body>
   <header>
-    <h1>Organiza Remédios</h1>
-
-    <nav>
-      <a href="index.html">
-        <img src="img/casinha.png" alt="Início" width="40">
-      </a>
-
-      <a href="javascript:history.back()">
-        <img src="img/flecha.png" alt="Voltar" width="40">
-      </a>
-    </nav>
-
-    <p>Rotina de nome do usuario</p>
+    <ul class="linha">
+      <li>
+        <ul class="linha">
+          <li>
+            <a href="index.html">
+              <img class="img_casa" src="img/casa.png" alt="Início">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:history.back()">
+              <img class="img_flecha" src="img/seta.png" alt="Voltar">
+            </a>
+          </li>
+        </ul>
+      <li class="horario">11:30</li>
+    </ul>
   </header>
 
   <main>
+    <p class="abas">Rotina</p>
     <ul>
-      <li><a href="hoje.html">Hoje</a></li>
-      <li><a href="semana.html">Semana</a></li>
+      <li><a class="caixa1" href="hoje.html">
+        <img class="img_hoje" src="img/hoje.png" alt="Hoje">
+      </a></li>
+      <li><a class="caixa2" href="semana.html">
+        <img class="img_semana" src="img/semana.png" alt="Semana">
+      </a></li>
     </ul>
   </main>
 </body>

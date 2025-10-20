@@ -199,9 +199,17 @@ main p {
 }
 
 .img_meus_medicamentos{
-  width: 11rem;
+  width: 12rem;
 }
 
 .img_cadastrar_novo{
+  width: 12rem;
+}
+
+.img_frequencia{
   width: 11rem;
+}
+
+.img_ultimo_mes{
+  width: 12rem;
 }

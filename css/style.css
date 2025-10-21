@@ -376,6 +376,7 @@ main p {
   gap: 1rem;
   margin-top: 3rem;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .img_glifage{
@@ -441,4 +442,28 @@ main p {
   height: 7rem;
   background-color: #FB4740;
   margin-left: 1rem;
+}
+
+.linha_calendario {
+  display: flex;         
+  gap: 1rem;                
+  margin: 0.5rem;       
+}
+
+.coluna_calendario {
+  font-size: 1.5rem;
+  width: 2rem;         
+  text-align: center;     
+}
+
+.compartilhar{
+  background-color: #B2AEAB;
+  margin-top: 15rem;
+  font-size: 1.5rem;
+  display: flex;             
+  flex-direction: column;    
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 5rem;
 }

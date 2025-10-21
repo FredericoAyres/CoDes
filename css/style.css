@@ -426,3 +426,19 @@ main p {
   justify-content: center;
   margin-left: 1rem;
 }
+
+.pos{
+  margin-top: 5rem;
+  width: 5rem;
+  height: 7rem;
+  background-color: #B0CC2E;
+  margin-left: 1rem;
+}
+
+.neg{
+  margin-top: 5rem;
+  width: 5rem;
+  height: 7rem;
+  background-color: #FB4740;
+  margin-left: 1rem;
+}

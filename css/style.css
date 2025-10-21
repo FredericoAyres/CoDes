@@ -296,3 +296,29 @@ main p {
   color:#FFFFFF;
   font-family: "Inter", sans-serif;
 }
+
+.margin_texto{
+  margin-top: 7rem;
+}
+
+.texto_infos{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.datas{
+  background-color: #B2AEAB;
+  margin-left: 0.5rem;
+  padding: 0.75rem;
+  margin-top: -3rem;
+  margin-bottom: 2.5rem;
+}
+
+.foto{
+  background-color: #B2AEAB;
+  width: 16rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

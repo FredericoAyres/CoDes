@@ -27,10 +27,11 @@ main {
   padding: 0 1rem;
 }
 
-h1{
+.fonte_h1{
   color:#FFFFFF;
   font-size: xx-large;
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .usuarios {
@@ -267,4 +268,31 @@ main p {
   justify-content: center;  
   align-items: center;
   font-size: 1.5rem;
+}
+
+.img_capsula{
+  width: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+  margin-bottom: 50%;
+}
+
+.fundo_inicio{
+  background-color: #33648A;
+}
+
+.titulo_inicio{
+  font-size: 2rem;
+  color:#FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.sub_inicio{
+  font-size: 1.5rem;
+  color:#FFFFFF;
+  font-family: "Inter", sans-serif;
 }

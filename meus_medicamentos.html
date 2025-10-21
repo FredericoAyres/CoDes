@@ -2,6 +2,8 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Organiza Remédios - Meus medicamentos</title>
@@ -9,26 +11,31 @@
 
 <body>
   <header>
-    <h1>Organiza Remédios</h1>
-
-    <nav>
-      <a href="index.html">
-        <img src="img/casinha.png" alt="Início" width="40">
-      </a>
-
-      <a href="javascript:history.back()">
-        <img src="img/flecha.png" alt="Voltar" width="40">
-      </a>
-    </nav>
-
-    <p>Medicamentos de nome do usuario</p>
+    <ul class="linha">
+      <li>
+        <ul class="linha">
+          <li>
+            <a href="entrar.html">
+              <img class="img_casa" src="img/casa.png" alt="Início">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:history.back()">
+              <img class="img_flecha" src="img/seta.png" alt="Voltar">
+            </a>
+          </li>
+        </ul>
+      <li class="horario">11:30</li>
+    </ul>
   </header>
 
-  <main>
+  <main class="margin_texto">
     <ul>
-      <li><a href="glifage.html">Glifage</a></li>
-      <li><a href="dimefor.html">Dimefor</a></li>
-      <li><a href="drenol.html">Drenol</a></li>
+      <li><a class="categorias" href="glifage.html">Glifage</a></li>
+      <li><a class="categorias" href="dimefor.html">Dimefor</a></li>
+      <li><a class="categorias" href="drenol.html">Drenol</a></li>
+      <li><a class="categorias" href="curcuma.html">Cúrcuma</a></li>
+      <li><a class="categorias" href="curcuma.html">Ansiodoron</a></li>
     </ul>
   </main>
 </body>

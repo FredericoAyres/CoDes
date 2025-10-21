@@ -2,6 +2,8 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Organiza Remédios - Frequência</title>
@@ -9,26 +11,52 @@
 
 <body>
   <header>
-    <h1>Organiza Remédios</h1>
-
-    <nav>
-      <a href="index.html">
-        <img src="img/casinha.png" alt="Início" width="40">
-      </a>
-
-      <a href="javascript:history.back()">
-        <img src="img/flecha.png" alt="Voltar" width="40">
-      </a>
-    </nav>
-
-    <p>Frequência de remédios</p>
+    <ul class="linha">
+      <li>
+        <ul class="linha">
+          <li>
+            <a href="entrar.html">
+              <img class="img_casa" src="img/casa.png" alt="Início">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:history.back()">
+              <img class="img_flecha" src="img/seta.png" alt="Voltar">
+            </a>
+          </li>
+        </ul>
+      <li class="horario">11:30</li>
+    </ul>
   </header>
 
   <main>
-    <ul>
-      <li>GLIFAGE — 100%</li>
-      <li>DIMEFOR — 80%</li>
-      <li>DRENOL — 95%</li>
+    <ul class="coluna">
+      <li>
+        <ul class="linha">
+          <li class="remedios_dia">Glifage</li>
+          <li class="coluna">
+            <ul class="coluna">
+              <li class="freq_pos">80%</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="linha">
+          <li class="remedios_dia">Dimefor</li>
+          <li class="coluna">
+            <ul class="coluna">
+              <li class="freq_pos">95%</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="linha">
+          <li class="remedios_dia">Drenol</li>
+          <li class="coluna">
+            <ul class="coluna">
+              <li class="freq_neg">45%</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </main>
 </body>

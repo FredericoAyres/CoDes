@@ -400,3 +400,29 @@ main p {
   gap:0.5rem;
   margin-top: 2.5rem;
 }
+
+.freq_pos{
+  margin-top: 5rem;
+  width: 5rem;
+  height: 7rem;
+  font-size: 2rem;
+  background-color: #B0CC2E;
+  display: flex;             
+  flex-direction: column;    
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.freq_neg{
+  margin-top: 5rem;
+  width: 5rem;
+  height: 7rem;
+  font-size: 2rem;
+  background-color: #FB4740;
+  display: flex;             
+  flex-direction: column;    
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}

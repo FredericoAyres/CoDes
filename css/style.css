@@ -509,3 +509,7 @@ main p {
   background-color: #54B7BE;
   color: white;
 }
+
+.texto_usuario{
+  font-size: 1.5rem;
+}

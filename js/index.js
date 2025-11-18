@@ -25,4 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
         linkUsuario.childNodes[0].textContent = `Entrar no aplicativo de ${nome} `;
     }
 
+    const ola_nome = document.querySelector('.texto_usuario');
+
+    if (nome && ola_nome) {
+        ola_nome.textContent = `Olá, ${nome} `;
+    }
+
 });

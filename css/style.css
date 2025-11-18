@@ -96,13 +96,17 @@ main p {
   left: 6rem;
 }
 
-.horario{
+.nome_usuario{
   background-color: #54B7BE;
   font-size: 2rem;       
   padding: 1.0rem 1rem;  
   position: fixed;       
   top: 1rem;             
-  right: 1rem;            
+  right: 1rem;
+  width: 9.5rem;
+  display: flex;          
+  align-items: center;    
+  justify-content: center;            
 }
 
 .linha{
@@ -474,4 +478,34 @@ main p {
   font-size: 1.8rem;
   margin-top: 5rem;
   margin-bottom: -2rem;
+}
+
+.tela_nome{
+  margin-top: 50%;
+  display: flex;             
+  flex-direction: column;    
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+}
+
+.campo_nome{
+  margin-top: -1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  width: 17rem;
+}
+
+.botao_nome {
+  margin-top: 1.2rem;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #54B7BE;
+  color: white;
 }
